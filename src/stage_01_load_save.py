@@ -45,7 +45,7 @@ if __name__ == '__main__':
     parsed_args = args.parse_args()
 
     try:
-        logging.info("\n********************")
+        logging.info("\n*******************")
         logging.info(f">>>>> stage {STAGE} started <<<<<")
         main(config_path=parsed_args.config)
         logging.info(f">>>>> stage {STAGE} completed!<<<<<\n")
