@@ -1,5 +1,6 @@
 ### dependency
 tqdm
+fsspec
 dvc
 pandas
 numpy
